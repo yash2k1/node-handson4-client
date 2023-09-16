@@ -1,5 +1,4 @@
 import React from 'react'
-import Login from '../Components/Login'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
