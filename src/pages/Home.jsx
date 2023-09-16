@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div>
  
-      <h1>Home</h1>
+      <h1>Home Page</h1>
       <p>this is home page</p>
      <h2>DashBoard: <Link to={'/Dashboard'}>Go to Dashboard</Link> </h2>
      <h2>Login:<Link to={'/Dashboard'}>Go to Dashboard</Link> </h2> 
