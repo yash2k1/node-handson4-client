@@ -7,7 +7,8 @@ const Dashboard = () => {
     const [data,setData]=useState("");
     useEffect(()=>{
       
-        const baseUrl="http://localhost:2023/Dashbord";
+        // const baseUrl="http://localhost:2023/Dashbord";
+        const baseUrl="https://handson4-server.onrender.com/Dashbord";
         axios.get(baseUrl,{
             headers:{
                 "authorization":"bearer "+token
